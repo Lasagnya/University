@@ -1,0 +1,2 @@
+Travelling1   Minsk          Mockow         200       12.05.2021
+Travel2       California     Los-Angeles    9865268   06.12.2020

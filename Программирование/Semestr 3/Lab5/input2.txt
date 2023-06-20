@@ -1,0 +1,4 @@
+<html></html>
+<p>hellow</p>
+<h1>how are you</h1>
+<img src = "/img.jpg" alt="not image"></img>

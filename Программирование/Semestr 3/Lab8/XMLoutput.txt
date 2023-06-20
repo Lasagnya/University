@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="Travel">
+    <string>Travelling1  </string>
+    <string>Minsk         </string>
+    <string>Moskow        </string>
+    <string>200      </string>
+    <string>12.05.2021</string>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Travel">
+    <string>Travel2      </string>
+    <string>California    </string>
+    <string>Los-Angeles   </string>
+    <string>9865268  </string>
+    <string>06.12.2020</string>
+   </object>
+  </void>
+ </object>
+</java>
