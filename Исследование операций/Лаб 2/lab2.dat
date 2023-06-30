@@ -1,0 +1,7 @@
+set P := 1, 2;
+param: earnings equipment_cost sand K2CO3 CaCO3:=
+1 6 500 0.52 0.13 0.35
+2 3 600 0.73 0.15 0.12;
+param sand_limit := 1460;
+param K2CO3_limit := 500;
+param CaCO3_limit := 700;

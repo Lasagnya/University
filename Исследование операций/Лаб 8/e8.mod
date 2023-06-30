@@ -1,0 +1,16 @@
+var x{i in 1..3};
+var y{i in 1..3};
+maximize z: x[1]+x[2]+x[3];
+subject to limit1: 0*x[1]+2*x[2]+5*x[3]<=1;
+subject to limit2: 2*x[1]+3*x[2]+x[3]<=1;
+subject to limit3: 4*x[1]+3*x[2]-x[3]<=1;
+subject to l1: x[1]>=0;
+subject to l2: x[2]>=0;
+subject to l3: x[3]>=0;
+minimize r: x[1]+x[2]+x[3];
+subject to limit4: 0*y[1]+2*y[2]+4*y[3]>=1;
+subject to limit5: 2*y[1]+3*y[2]+3*y[3]>=1;
+subject to limit6: 5*y[1]+1*y[2]-y[3]>=1;
+subject to l4: y[1]>=0;
+subject to l5: y[2]>=0;
+subject to l6: y[3]>=0;

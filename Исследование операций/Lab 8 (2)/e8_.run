@@ -1,0 +1,10 @@
+reset;
+
+model e8_.mod;
+data 3.dat;
+option solver cplex;
+solve;
+display z1;
+display z2;
+display x;
+display y;

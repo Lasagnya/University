@@ -1,0 +1,7 @@
+reset;
+model lab2.mod;
+data lab2.dat;
+option solver cplex;
+solve;
+display X, Equipment;
+display Profit;
